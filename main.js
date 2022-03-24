@@ -6,7 +6,7 @@ let jokes = [];
 
 //  create a function to get information
 const fetchChuchNorrisJoke = async () => {
-  const call = await fetch('http://api.icndb.com/jokes/random/3');
+  const call = await fetch('https://api.icndb.com/jokes/random/3');
   const response = await call.json();
 
   return response;
